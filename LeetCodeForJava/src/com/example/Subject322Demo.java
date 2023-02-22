@@ -8,8 +8,8 @@ import java.util.Arrays;
 public class Subject322Demo {
 
     /**
-     * 使用动态规划 
-     * F(3)=min(F(3−c1),F(3−c2),F(3−c 3))+1
+     * 使用动态规划 cj代表j硬的币值
+     * F(3)=min(F(3−c1),F(3−c2),F(3−c3))+1
         =min(F(3−1),F(3−2),F(3−3))+1
         =min(F(2),F(1),F(0))+1
         =min(1,1,0)+1
